@@ -1,9 +1,14 @@
 import Header from "./Header.jsx"
+import Footer from "./Footer.jsx"
+import { Fragment } from "react"
 
 function App() {
 
   return (
-    <Header></Header>
+    <Fragment>
+        <Header></Header>
+        <Footer></Footer>
+    </Fragment>
   )
 }
 
