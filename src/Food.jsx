@@ -4,9 +4,9 @@ function Food() {
     const foodSecoond = "Banana";
     return( 
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>Apple</li>
+            <li>{foodFirst}</li>
+            <li>{foodSecoond.toUpperCase()}</li>
         </ul>
     );
 }
