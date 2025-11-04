@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 function Student(props) {
     return(
         <div className="student-cd">
@@ -8,5 +10,18 @@ function Student(props) {
     );
 
 }
+
+Student.propTypes = {
+    name: PropTypes.string.isRequired,
+    age: PropTypes.number.isRequired,
+    isStudent: PropTypes.bool.isRequired,
+}
+
+Student.defaultProps = {
+    name: "Guest",
+    age: 0,
+    isStudent: false,
+}
+
 
 export default Student
