@@ -1,12 +1,12 @@
-import Card from "./Card.jsx"
-import Button from "./Button.jsx";
-
+import Student from "./Student.jsx"
+import { Fragment } from "react";
 function App() {
 
   return (
     <>
-      <Card></Card>
-      <Button></Button>
+        <Student name={"Spongebob"} age={30} isStudent = {true}/>
+        <Student name={"timeout"} age={50} isStudent = {false}/>
+        <Student age={30} />
     </>
   );
 }
