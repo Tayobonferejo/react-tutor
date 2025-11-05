@@ -1,12 +1,8 @@
-import UserGreeting from "./UserGreeting.jsx"
-import { Fragment } from "react";
+import List from "./List.jsx"
 function App() {
 
   return (
-    <Fragment>
-        <UserGreeting IsLoggedIn={true} username="Brocode"/>
-
-    </Fragment>
+    <List></List>
   );
 }
 
